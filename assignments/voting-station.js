@@ -6,7 +6,7 @@ const chooseStations = function(stations) {
 /*
 // Solution using a for loop
 const chooseStations = function(stations) {
-  result = [];
+  const result = [];
   for (let i = 0; i < stations.length; i++) {
     if (stations[i][1] >= 20 && (stations[i][2] === 'school' || stations[i][2] === 'community centre')) {
       result.push(stations[i][0]);
